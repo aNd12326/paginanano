@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+    background-image: linear-gradient(to right, #bb0660,#ff4208);
+}
+.img{
+    clip-path: circle(50% at 50% 50%);
+}
+.navbar-brand{color: azure !important;
+    font-size: 25px !important;
+    font-family: 'Parisienne', cursive;}
+.nav-link{
+    color: rgb(255, 254, 254) !important;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(8, 8, 7) !important;
+}
+@media(max-width:668px){
+    .nav-link{text-align: center;}
+}
+/*mi span*/
+/*Fin menu*/
+span{color: rgb(8, 8, 8);
+    font-family: 'Parisienne', cursive;
+    text-shadow: 6px 4px 4px white;
+    font-size: 35px;}
